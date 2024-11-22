@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ee99ea;
+    flex-direction: column;
+}
+
+h2 {
+
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+
+.game-container {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #d6a6c8;
+}
